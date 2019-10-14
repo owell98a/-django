@@ -133,3 +133,5 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = (  # 自定义静态文件位置
     os.path.join(BASE_DIR, "static"),  # 注意不要丢掉这个逗号，因为这是个元祖
 )
+
+LOGIN_REDIRECT_URL = '/blog/'
